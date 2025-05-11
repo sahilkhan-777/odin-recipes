@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucia Handwriting', Verdana, sans-serif;
+    font-size: 18px;
+    background-color: rgb(144, 91, 194);
+    line-height: 1.4em;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+h2{
+    color: #f737bd;
+    text-shadow: 0.5px 0.5px 1px #000000;
+    padding-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+p{
+    color: rgb(240, 240, 240);
+    padding-left: 40px;
+}
+.img-container{
+    text-align: center;
+    margin: 20px 0;
+}
+img{
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(240, 240, 240);                                                             
+}
+ul{
+    padding-left: 60px;
+}
+ul li{
+    list-style-type: circle;
+    margin-bottom: 10px;
+    color: rgb(240, 240, 240);    
+}
+ol{
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+ol li{
+    margin-bottom: 10px;
+    color: rgb(240, 240, 240);
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 1.2rem;
+    background-color: #f737bd;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
